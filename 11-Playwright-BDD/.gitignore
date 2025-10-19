@@ -1,0 +1,10 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Playwright-BDD advise to Git ignore generated tests
+**/.features-gen/**/*.spec.js

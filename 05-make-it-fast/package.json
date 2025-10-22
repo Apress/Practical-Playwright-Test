@@ -1,0 +1,17 @@
+{
+  "name": "04-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@ghostery/adblocker-playwright": "^2.6.1",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.24"
+  }
+}

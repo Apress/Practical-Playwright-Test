@@ -1,0 +1,22 @@
+{
+  "name": "06-expect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@faker-js/faker": "^9.8.0",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.24",
+    "axe-html-reporter": "^2.2.11",
+    "csv-parse": "^5.6.0",
+    "jest-extended": "^5.0.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}

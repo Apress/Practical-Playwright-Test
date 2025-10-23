@@ -1,0 +1,22 @@
+{
+ "username": "test_user",
+ "role": "admin",
+ "financialDetails": {
+   "balance": 1000,
+   "currency": "USD",
+   "transactions": [
+     {
+       "id": "txn_001",
+       "amount": 200,
+       "date": "2023-10-01",
+       "type": "credit"
+     },
+     {
+       "id": "txn_002",
+       "amount": 150,
+       "date": "2023-10-02",
+       "type": "debit"
+     }
+   ]
+ }
+}

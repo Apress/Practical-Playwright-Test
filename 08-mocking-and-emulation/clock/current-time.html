@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Current Time App</title>
+  <style>
+    body {
+      font-family: 'Roboto Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f5f5f5;
+    }
+    #clock {
+      font-size: 3em;
+      color: #333;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Current Time</h1>
+  <div id="clock">--:--:--<span id="tick"></span></div>
+  <script>
+    let showColon = true;
+    function updateClock() {
+      const now = new Date();
+      let h = String(now.getHours()).padStart(2, '0');
+      let m = String(now.getMinutes()).padStart(2, '0');
+      let s = String(now.getSeconds()).padStart(2, '0');
+      let colon = showColon ? ':' : ' ';
+      const timeString = `${h}${colon}${m}${colon}${s}`;
+      document.getElementById('clock').childNodes[0].textContent = timeString;
+      showColon = !showColon;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
+</body>
+</html>

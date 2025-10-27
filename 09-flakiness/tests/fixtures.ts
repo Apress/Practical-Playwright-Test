@@ -1,11 +1,11 @@
 import { setTimeout } from 'node:timers/promises';
 import { test as base, Page } from '@playwright/test';
 
-export type MyOptions = {
+export type MyFixtures = {
   chaos: () => Promise<void>;
 };
 
-export const test = base.extend<MyOptions>({
+export const test = base.extend<MyFixtures>({
   chaos: async ({ browserName, page }, use) => {
     await use(async () => {
       // 1

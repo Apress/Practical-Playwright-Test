@@ -1,9 +1,9 @@
 # Practical Playwright Test
 ***Next-Generation Web Testing and Automation***
 
-This repository accompanies [Practical Playwright Test](https://link.springer.com/book/9798868821592) by Jean-François Greffier (Apress)
+This repository accompanies [Practical Playwright Test](https://link.springer.com/book/9798868821592) by Jean-François Greffier (Apress, 2026)
 
-![Cover image](979-8-8688-2159-2.webp)
+![Cover image](979-8-8688-2159-2.jpg)
 
 ## About the book
 Gain cutting-edge skills in crafting reliable, efficient end-to-end tests with Playwright Test. This book is your comprehensive guide to Playwright Test that will help you to create and debug blazing fast tests, and integrate and customize Playwright Test to fit your testing needs. 

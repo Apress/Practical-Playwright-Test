@@ -21,7 +21,7 @@ export class CheckoutPage {
     await this.page
       .getByPlaceholder('1234 1234 1234')
       .fill('4242 4242 4242 4242');
-    await this.page.getByPlaceholder('MM / YY').fill('01 / 28');
+    await this.page.getByPlaceholder('MM / YY').fill('01/28');
     await this.page.getByPlaceholder('CVC').fill('123');
   }
 
